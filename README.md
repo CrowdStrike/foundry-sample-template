@@ -14,7 +14,7 @@ This app is one of several App Templates included in Foundry that you can use to
 ## Prerequisites
 
 * The Foundry CLI (instructions below).
-* Delete or add tools below as required. These are from other samples.
+* _Delete or add tools below as required. These are from other samples._
 * Python 3.13+ (needed if modifying the app's functions). See [Python For Beginners](https://www.python.org/about/gettingstarted/) for installation instructions.
 * Go v1.23+ (needed if modifying the app's functions). See https://go.dev/learn for installation instructions.
 * Yarn (needed if modifying the app's UI). See https://yarnpkg.com/getting-started for installation instructions.
