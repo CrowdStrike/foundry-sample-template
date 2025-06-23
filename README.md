@@ -11,6 +11,8 @@ This app is one of several App Templates included in Foundry that you can use to
 
 ## Description
 
+A description of this app's use case and what it does. 
+
 ## Prerequisites
 
 * The Foundry CLI (instructions below).
