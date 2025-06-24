@@ -31,4 +31,4 @@ When you create a new repo with this template, you still need to do a few things
    - **foundry-sample-rapid-response**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-rapid-response/blob/main/.github/workflows/main.yml) compiles Go functions and builds/tests UI pages.
    - **foundry-sample-ngsiem-importer**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-ngsiem-importer/blob/main/.github/workflows/main.yml) installs Python dependencies, runs unit tests, and confirms the function starts successfully. 
 
-Once you've completed these updates, delete this file.
+Once you've completed these updates, delete this file. Its location is at `.github/README.md`.
