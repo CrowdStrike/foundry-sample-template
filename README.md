@@ -1,8 +1,8 @@
 ![CrowdStrike Falcon](/images/cs-logo.png?raw=true)
 
-# ${{ repository.name }} sample Foundry app
+# $SAMPLE_NAME sample Foundry app
 
-The $NAME sample Foundry app is a community-driven, open source project which serves as an example of an app which can be built using CrowdStrike's Foundry ecosystem. `${{ repository.name }}` is an open source project, not a CrowdStrike product. As such, it carries no formal support, expressed or implied.
+The $SAMPLE_NAME sample Foundry app is a community-driven, open source project which serves as an example of an app which can be built using CrowdStrike's Foundry ecosystem. `$REPOSITORY_NAME` is an open source project, not a CrowdStrike product. As such, it carries no formal support, expressed or implied.
 
 This app is one of several App Templates included in Foundry that you can use to jumpstart your development. It comes complete with a set of preconfigured capabilities aligned to its business purpose. Deploy this app from the Templates page with a single click in the Foundry UI, or create an app from this template using the CLI.
 
@@ -11,7 +11,7 @@ This app is one of several App Templates included in Foundry that you can use to
 
 ## Description
 
-A description of this app's use case and what it does. 
+_A description of this app's use case and what it does._
 
 ## Prerequisites
 
@@ -49,11 +49,11 @@ Run `foundry version` to verify it's installed correctly.
 
 ## Getting Started
 
-Clone this sample to your local system, or [download as a zip file](https://github.com/CrowdStrike/${{ repository.name }}/archive/refs/heads/main.zip) and import it into Foundry.
+Clone this sample to your local system, or [download as a zip file](https://github.com/CrowdStrike/$REPOSITORY_NAME/archive/refs/heads/main.zip) and import it into Foundry.
 
 ```shell
-git clone https://github.com/CrowdStrike/${{ repository.name }}
-cd ${{ repository.name }}
+git clone https://github.com/CrowdStrike/$REPOSITORY_NAME
+cd $REPOSITORY_NAME
 ```
 
 Log in to Foundry:
@@ -88,7 +88,7 @@ Next, go to **Foundry** > **App catalog**, find your app, and install it. Go to 
 
 ## About this sample app
 
-Describe your app and its components. 
+_Describe your app and its components._
 
 ## Foundry resources
 
