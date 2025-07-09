@@ -38,7 +38,7 @@ When you create a new repo with this template, you still need to do a few things
 
 7. In the GitHub UI, update the **About** section to be `$SAMPLE_NAME sample Foundry app`. Add `falcon-foundry` as a topic and uncheck Releases, Packages, and Deployments.
 8. Go to **Settings** and uncheck the **Wikis** and **Projects** features.
-9. In **Collaborators and teams**, add the **CrowdStrike/foundry** team as an **Admin**. Remove your personal account if you're a member of the foundry team.
+9. In **Collaborators and teams**, add the **CrowdStrike/foundry** and **CrowdStrike/solution-architects** teams with **Role: admin**. Remove your personal account if you're a member of the foundry team.
 10. In **Branches**, add a **classic** branch protection rule:
 
      - Branch name pattern: `main`
