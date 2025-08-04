@@ -30,8 +30,7 @@ When you create a new repo with this template, you still need to do a few things
           interval: weekly
     ```
 
-    > [!IMPORTANT]  
-    > If your app has a UI extension built with React, you should add a `react` group to your npm settings, like the following:
+    > **NOTE**: If your app has a UI extension built with React, you should add a `react` group to your npm settings, like the following:
     >
     > ```yaml
     >   - package-ecosystem: npm
