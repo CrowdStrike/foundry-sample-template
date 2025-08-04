@@ -34,7 +34,7 @@ When you create a new repo with this template, you still need to do a few things
     >
     > ```yaml
     >   - package-ecosystem: npm
-    >     directory: "/ui/extensions/user-preferences/"
+    >     directory: "/ui/extensions/extension-name/"
     >     open-pull-requests-limit: 10
     >     schedule:
     >       interval: weekly
