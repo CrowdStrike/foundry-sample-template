@@ -30,6 +30,21 @@ When you create a new repo with this template, you still need to do a few things
           interval: weekly
     ```
 
+    > **NOTE**: If your app has a UI extension built with React, you should add a `react` group to your npm settings, like the following:
+    >
+    > ```yaml
+    >   - package-ecosystem: npm
+    >     directory: "/ui/extensions/extension-name/"
+    >     open-pull-requests-limit: 10
+    >     schedule:
+    >       interval: weekly
+    >     groups:
+    >       react:
+    >         patterns:
+    >           - "react"
+    >           - "react-dom"
+    > ```
+
 6. In the `.github/workflows` directory, create a `main.yml` that resembles one of the other samples:
 
    - **foundry-sample-mitre**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-mitre/blob/main/.github/workflows/main.yml) builds extensions and pages with Yarn. It also has a [`rebuild.yml`](https://github.com/CrowdStrike/foundry-sample-mitre/blob/main/.github/workflows/rebuild.yml) that recreates the UI bits with the latest dependencies every week. 
