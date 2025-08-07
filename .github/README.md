@@ -49,7 +49,11 @@ When you create a new repo with this template, you still need to do a few things
 
    - **foundry-sample-mitre**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-mitre/blob/main/.github/workflows/main.yml) builds extensions and pages with Yarn. It also has a [`rebuild.yml`](https://github.com/CrowdStrike/foundry-sample-mitre/blob/main/.github/workflows/rebuild.yml) that recreates the UI bits with the latest dependencies every week. 
    - **foundry-sample-rapid-response**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-rapid-response/blob/main/.github/workflows/main.yml) compiles Go functions and builds/tests UI pages.
-   - **foundry-sample-ngsiem-importer**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-ngsiem-importer/blob/main/.github/workflows/main.yml) installs Python dependencies, runs unit tests, and confirms the function starts successfully. 
+   - **foundry-sample-ngsiem-importer**: [`main.yml`](https://github.com/CrowdStrike/foundry-sample-ngsiem-importer/blob/main/.github/workflows/main.yml) installs Python dependencies, runs unit tests, and confirms the function starts successfully.
+
+    > **NOTE**: For apps with Python functions, add Pylint code quality checks by copying these files from the **foundry-sample-functions-python** project:
+    > - [`pylint.yml`](https://github.com/CrowdStrike/foundry-sample-functions-python/blob/main/.github/workflows/pylint.yml) → `.github/workflows/`
+    > - [`.pylintrc`](https://github.com/CrowdStrike/foundry-sample-functions-python/blob/main/.pylintrc) → project root
 
 7. In the GitHub UI, update the **About** section to be `$SAMPLE_NAME sample Foundry app`. Add `falcon-foundry` as a topic and uncheck Releases, Packages, and Deployments.
 8. Go to **Settings** and uncheck the **Wikis** and **Projects** features.
