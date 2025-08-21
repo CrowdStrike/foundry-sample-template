@@ -4,18 +4,30 @@ updates:
     directories:
       - "/functions/go-function/"
     schedule:
-      interval: weekly
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
+      timezone: "UTC"
   - package-ecosystem: pip
     directory: "/functions/python-function/"
     schedule:
-      interval: weekly
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
+      timezone: "UTC"
   - package-ecosystem: npm
     directories:
       - "/ui/extensions/extension-name/"
     open-pull-requests-limit: 10
     schedule:
-      interval: weekly
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
+      timezone: "UTC"
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
-      interval: weekly
+      interval: "weekly"
+      day: "monday"
+      time: "14:00"
+      timezone: "UTC"
