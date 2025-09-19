@@ -9,12 +9,6 @@ updates:
     directory: "/functions/python-function/"
     schedule:
       interval: weekly
-  - package-ecosystem: npm
-    directories:
-      - "/ui/extensions/extension-name/"
-    open-pull-requests-limit: 10
-    schedule:
-      interval: weekly
   - package-ecosystem: github-actions
     directory: "/"
     schedule:
