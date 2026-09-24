@@ -1,26 +1,38 @@
+# This template has no functions, UI code, or workflows, so there is nothing
+# for Dependabot to update yet and the list below is intentionally empty.
+#
+# When you create a sample from this template, replace `updates: []` with an
+# entry for each ecosystem your app contains, pointing at directories that
+# exist. For example:
+#
+# updates:
+#   - package-ecosystem: pip
+#     directories:
+#       - "/functions/your-python-function/"
+#     schedule:
+#       interval: weekly
+#   - package-ecosystem: gomod
+#     directories:
+#       - "/functions/your-go-function/"
+#     schedule:
+#       interval: weekly
+#   - package-ecosystem: github-actions
+#     directory: "/"
+#     schedule:
+#       interval: weekly
+#     ignore:
+#       - dependency-name: "actions/checkout"
+#         versions: [">=6.0.3"]
+#       - dependency-name: "actions/setup-node"
+#         versions: [">=6.3.0"]
+#       - dependency-name: "actions/setup-python"
+#         versions: [">=6.3.0"]
+#       - dependency-name: "actions/setup-go"
+#         versions: [">=6.3.0"]
+#       - dependency-name: "actions/upload-artifact"
+#         versions: [">=7.0.0"]
+#
+# Only add github-actions once the repository has workflows in
+# .github/workflows, otherwise Dependabot fails with "dependency_file_not_found".
 version: 2
-updates:
-  - package-ecosystem: gomod
-    directories:
-      - "/functions/go-function/"
-    schedule:
-      interval: weekly
-  - package-ecosystem: pip
-    directory: "/functions/python-function/"
-    schedule:
-      interval: weekly
-  - package-ecosystem: github-actions
-    directory: "/"
-    schedule:
-      interval: weekly
-    ignore:
-      - dependency-name: "actions/checkout"
-        versions: [">=6.0.3"]
-      - dependency-name: "actions/setup-node"
-        versions: [">=6.3.0"]
-      - dependency-name: "actions/setup-python"
-        versions: [">=6.3.0"]
-      - dependency-name: "actions/setup-go"
-        versions: [">=6.3.0"]
-      - dependency-name: "actions/upload-artifact"
-        versions: [">=7.0.0"]
+updates: []

@@ -15,7 +15,7 @@ When you create a new repo with this template, you still need to do a few things
    yq -i 'del(.. | select(has("id")).id) | del(.. | select(has("app_id")).app_id)' manifest.yml
    ```
    
-5. In `.github/dependabot.yml`, remove the ecosystems your app is missing. For example, if it only has a Python function, it should be as follows:
+5. In `.github/dependabot.yml`, replace `updates: []` with an entry for each ecosystem your app contains (the comments in that file have examples). For example, if it only has a Python function, it should be as follows:
 
     ```yaml
     version: 2
